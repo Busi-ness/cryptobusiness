@@ -1,0 +1,15 @@
+.all-cryptos option
+{
+	border: 5px solid red;
+	color: #ffa60c;
+	padding: 10px;
+	margin-top: 90px;
+	font-size: 20px;
+}
+
+.all-cryptos select
+{
+	background-color: #322f2f;
+	padding: 10px;
+	color: #ffa60c;
+}

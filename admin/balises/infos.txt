@@ -1,0 +1,10 @@
+
+include('balises/head-code.php');
+
+<?php include('balises/head-code.php');?>
+
+
+
+include('balises/foot-code.php');
+
+<?php include('balises/foot-code.php');?>

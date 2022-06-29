@@ -1,0 +1,36 @@
+.formgroup
+	{
+		border: solid #ffa60c 1px;
+		border-radius: 10px;
+		display: block;
+		width: 35%;
+		margin: auto;
+		box-shadow: 2px 2px 2px #000000;
+		overflow: hidden;
+	}
+
+
+.titre
+{
+	margin-left: 5px;
+}
+	form
+	{
+		width: 96%;
+		/*border: solid blue 1px;*/
+		margin: auto;
+	}
+
+	.connexion
+	{
+		text-align: center;
+		color: #ffa60c;
+		opacity: 1;
+	}
+
+	.temoignage
+	{
+		height: 55px;
+	}
+
+	

@@ -1,0 +1,63 @@
+.all
+{
+	border: solid #ffa60c 1px;
+	border-radius: 10px;
+	display: block;
+	width: 35%;
+	margin: auto;
+	box-shadow: 2px 2px 2px #000000;
+}
+h2
+{
+	text-align: center;
+}
+
+form
+{
+	display: block;
+	text-align: center;
+}
+
+.email
+{
+	display: block;
+	margin: auto;
+	width: 96%;
+	height: 27px;
+	border-radius: 5px;
+	border: solid 1px #ffa60c;
+	color: #ffa60c;
+	background-color: #322f2f;
+}
+
+.recevoir_token
+{
+	display: block;
+	text-align: center;
+	width: 50%;
+	height: 30px;
+	margin: auto;
+	border: solid 1px #ffa60c;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: #ffa60c;
+	color: #322f2f;
+	font-size: 16px;
+
+}
+
+
+@media (max-width: 760px)
+{
+
+	.all
+{
+	border: solid #ffa60c 1px;
+	border-radius: 10px;
+	display: block;
+	width: 98%;
+	margin: auto;
+	box-shadow: 2px 2px 2px #000000;
+}
+
+}

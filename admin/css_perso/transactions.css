@@ -1,0 +1,50 @@
+.all_transactions
+{
+  padding: 10px;
+  font-size: 25px;
+  /*border: solid blue 2px;*/
+}
+
+.all_transactions img
+{
+  display: block;
+  align-items: center;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  /*border: white solid 2px;*/
+  /*border-radius: 100px;*/
+  background-color: #ffa60c;
+}
+
+.transactions_validees a, .transactions_en_attente a
+{
+  /*border: solid red 2px;*/
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.transactions_validees, .transactions_en_attente
+{
+  display: block;
+  align-items: center;
+  margin:  auto;
+  /*border: solid blue 1px;*/
+  height: auto;
+  width: 300px;
+  background-color: #ffa60c;
+  border-radius: 10px;
+}
+
+.transactions_validees a
+{
+  color: white;
+}
+
+.transactions_en_attente a
+{
+  color: red;
+  margin-top: 10px;
+}
+

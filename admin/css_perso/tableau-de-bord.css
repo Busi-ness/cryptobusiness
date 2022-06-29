@@ -1,0 +1,75 @@
+.all
+{
+	border: solid red 2px;
+}
+
+
+.donnee
+{
+	display: block;
+	text-align: center;
+	width: 48%;
+	margin: 7px;
+	float: left;
+	padding: 5px;
+}
+
+.donnees
+{
+	display: block;
+	align-items: center;
+	width: 95%;
+	margin: auto;
+	/*border: solid blue 1px;*/
+}
+
+.donnees::after
+{
+	content: "";
+	clear: both;
+	display: table;
+}
+.donnee
+{
+	/*border: solid blue 5px;*/
+}
+
+span
+{
+
+}
+
+.utilisateurs, .temoignages, .transactions, .administrateurs
+{
+	font-size: 25px;
+}
+
+.donnees button 
+{
+	margin: 5px;
+	width: 50%;
+	margin: auto;
+	height: 100px;
+}
+
+
+@media (max-width: 760px)
+{
+	.donnees button 
+{
+	margin: 5px;
+	width: 98%;
+	margin: auto;
+}
+
+.donnee
+{
+	display: block;
+	text-align: center;
+	width: 98%;
+	margin: auto;
+	float: left;
+}
+
+
+}

@@ -1,0 +1,12 @@
+.actualites
+{
+	padding: 5px;
+	display: block;
+	align-items: center;
+}
+
+a .source
+{
+	border: solid red 2px;
+	color: #ffa60c;
+}

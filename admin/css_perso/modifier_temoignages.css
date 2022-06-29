@@ -1,0 +1,23 @@
+fieldset
+{
+	font-size: 20px;
+}
+.info
+{
+	color: white;
+}
+
+.libelle
+{
+	color: #ffa60c;
+}
+
+.capture
+{
+	padding: 10px;
+}
+
+fieldset input
+{
+	padding: 8px;
+}

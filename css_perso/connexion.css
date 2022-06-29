@@ -1,0 +1,180 @@
+body
+{
+	background-color: #322f2f;
+}
+.formgroup
+	{
+		border: solid #ffa60c 1px;
+		border-radius: 10px;
+		display: block;
+		width: 35%;
+		margin: auto;
+		box-shadow: 2px 2px 2px #000000;
+	}
+
+	form
+	{
+		width: 96%;
+		/*border: solid blue 1px;*/
+		margin: auto;
+	}
+
+	.connexion
+	{
+		text-align: center;
+		color: #ffa60c;
+		opacity: 1;
+	}
+
+	#email, #password
+	{
+		display: block;
+		margin: auto;
+		width: 98%;
+		height: 27px;
+		border-radius: 5px;
+		border: solid 1px #ffa60c;
+		color: #ffa60c;
+		background-color: #322f2f;
+	}
+
+	}
+.form-style input[type=password]:focus, 
+.form-style input[type=email]:focus,
+/*.form-style textarea:focus*/{
+  -moz-box-shadow: 0 0 8px #ffa60c;
+  -webkit-box-shadow: 0 0 8px #ffa60c;
+  box-shadow: 0 0 8px #ffa60c;
+  border: 1px solid #ffa60c;
+}
+
+.form-style .required{
+  color:red;
+}
+
+	/*#email:hover, #password:hover
+	{
+		display: block;
+		margin: auto;
+		width: 98%;
+		height: 27px;
+		border-radius: 5px;
+		border: solid 0px red;
+	}*/
+
+	.connecter
+	{
+		display: block;
+		text-align: center;
+		width: 50%;
+		height: 30px;
+		margin: auto;
+		border: solid 1px #ffa60c;
+		border-radius: 5px;
+		cursor: pointer;
+		background-color: #ffa60c;
+	color: #322f2f;
+	font-size: 16px;
+
+	}
+
+
+.bas
+{
+	color: #ffa60c;
+}
+
+.bas a
+{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+
+}
+
+.input_mdp, .input_email, .souvenir
+{
+	color: #ffffff;
+	font-size: 16px;
+}
+
+
+
+.error
+{
+	color: red;
+	display: block;
+	text-align: center;
+}
+
+
+@media (max-width: 760px)
+{
+	.formgroup
+	{
+		border: solid #ffa60c 1px;
+		border-radius: 10px;
+		display: block;
+		width: 98%;
+		margin: auto;
+	}
+
+	form
+	{
+		width: 96%;
+		/*border: solid blue 1px;*/
+		margin: auto;
+	}
+
+	.connexion
+	{
+		text-align: center;
+		color: #ffa60c;
+		opacity: 1;
+	}
+
+	#email, #password
+	{
+		display: block;
+		margin: auto;
+		width: 98%;
+		height: 27px;
+		border-radius: 5px;
+		border: solid 1px #ffa60c;
+	}
+
+	/*#email:hover, #password:hover
+	{
+		display: block;
+		margin: auto;
+		width: 98%;
+		height: 27px;
+		border-radius: 5px;
+		border: solid 0px red;
+	}*/
+
+	.connecter
+	{
+		display: block;
+		text-align: center;
+		width: 50%;
+		height: 30px;
+		margin: auto;
+		border: solid 1px #ffa60c;
+		border-radius: 5px;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

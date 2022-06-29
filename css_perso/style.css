@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Roboto:wght@100;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Bitter:wght@500&family=Roboto:wght@100;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Bitter:wght@500&family=Cardo&family=Roboto:wght@100;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Bitter:wght@500&family=Cardo&family=Roboto+Mono:wght@100&family=Roboto:wght@100;400&display=swap');
+
+
+body
+{
+
+	background-color: #322f2f !important;
+	margin: 0;
+	font-family: roboto;
+}
+
+h1, h2, h3
+{
+	color: #ffa60c;
+	font-family: 'Cardo', serif;
+}
+
+button
+{
+	display: block;
+	height: 30px;
+	border: solid 1px #ffa60c;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: #ffa60c;
+	color: #322f2f;
+	font-size: 16px;
+
+}
+
+textarea
+{
+	border: solid 1px #ffa60c;
+	color: #ffa60c;
+	background-color: #322f2f;
+
+}
+
+button a
+{
+	text-decoration: none;
+	color: #322f2f;
+}
+
+a
+{
+	text-decoration: none;
+	color: #322f2f;
+
+}
+
+span .conditions
+{
+	display: block;
+	color: #ffa60c;
+	/*border: solid red 2px;*/
+}
+
+p
+
+{
+	
+}
+p
+{
+	color: #ffffff;
+}
+
+.pays
+{
+	color: #ffa60c;
+}
+
+
+.error
+{
+	color: red;
+	display: block;
+	text-align: center;
+}
+
+.note
+{
+	color: white;
+	display: block;
+	text-align: center;
+}
+
+.note a
+{
+	color: #ffa60c;
+	font-size: 25px;
+}
+
+
+.img-error, .img-note
+{
+	/*border: solid 2px red;*/
+	width: 30px;
+}
+
+
+input
+{
+	border-radius: 5px;
+	border: solid 1px #ffa60c;
+	color: #ffa60c;
+	background-color: #322f2f;
+
+}
+
+.succes
+{
+	color: white;
+}
+
+legend, .nb
+{
+	color: #ffa60c;;
+}
+
+label, .fcfa
+{
+	color: white;
+}
+
+
+if ($insertmessage)
+			{
+
+
+				?>
+
+				<div class="note">
+					<img src="logos/ok.png" alt="Ok" class="img-note"><br>
+					Merci beaucoup <b style="color: #ffa60c" ><?php echo $name;?></b> Votre message a été reçu. Nous vous repondrons sous peu!
+				</div>
+
+				<?php
+				
+			}else
+			{
+				?>
+
+				<div class="error">
+
+					<img src="logos/error.png" alt="Error" class="img-error"><br>
+					Une erreur est subvenue
+
+				</div>
+
+				<?php
+			}

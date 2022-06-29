@@ -1,0 +1,205 @@
+
+
+.all-site
+{
+	/*border: solid 2px red;*/
+}
+
+.haut-accueil
+{
+	display: block;
+	text-align: center;
+}
+
+
+.titre-du-site
+{
+	text-align: center;
+	border: solid 0px blue;
+	height: 220px;
+	background-image: url(/images/Image_entête_1_Crypto_Business_Boss_Arts.png);
+	background-repeat: no-repeat;
+	/*background-image: url(/images-site/Cryptomonnaie_par_Crypto_Business_Boss_Arts.jpg);
+	background-repeat: no-repeat;*/
+
+}
+
+
+
+
+.btn
+{
+	display: block;
+	width: 120px;
+	float: left;
+}
+
+.acheter
+{
+	margin-right: 5px;
+}
+
+.achatvente::after
+{
+	content: "";
+	clear: both;
+	display: table;
+	text-align: center;
+
+
+}
+
+.achatvente
+{
+	/*border: solid red 2px;*/
+	width: 21%;
+	margin: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/*.vendre
+{
+	
+	border: solid #ffa60c 2px;
+	background-color: rgba(0, 0, 0, 0.0);
+	
+}
+
+.vendre:hover
+{
+	
+	border: solid #ffa60c 2px;
+	background-color: #ffa60c;
+	
+}
+
+.acheter:hover
+{
+border: solid #ffa60c 2px;
+	background-color: rgba(0, 0, 0, 0.0);
+}*/
+
+/*atouts*/
+
+.atout
+{
+	border: solid #ffa60c 1px;
+}
+
+.atout
+{
+	display: block;
+	text-align: center;
+	width: 32%;
+	margin: 7px;
+	float: left;
+}
+
+.atouts
+{
+	display: block;
+	width: 100%;
+	margin: auto;
+	/*border: solid blue 1px;*/
+}
+
+.atouts::after
+{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+
+.temoignage
+{
+	border: solid red 1px;
+}
+
+.temoignage
+{
+	display: block;
+	text-align: center;
+	width: 32%;
+	margin: 7px;
+	float: left;
+}
+
+.temoignages
+{
+	display: block;
+	width: 100%;
+	margin: auto;
+	/*border: solid blue 1px;*/
+}
+
+.temoignages::after
+{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.plustemoignages
+{
+	display: block;
+	width: 200px;
+	margin: auto;
+
+}
+
+.image-entete
+{
+	
+}
+
+
+@media (max-width: 760px)
+{
+	.achatvente
+{
+
+	/*border: solid red 2px;*/
+	width: 54%;
+	margin: auto;
+}
+
+.acheter, .vendre
+{
+	display: block;
+	align-items: center;
+	margin: auto;
+}
+
+.acheter, .vendre
+{
+	margin-left: 5px;
+}
+
+.vendre
+{
+	margin-right: 5px;
+}
+
+.atout
+{
+	width: 95%;
+	margin: 2.5%;
+}
+
+.titre-du-site
+{
+	text-align: center;
+	border: solid 0px blue;
+	height: 220px;
+	background-image: url(/images/Image_mobile_entête_1_Crypto_Business_Boss_Arts.png);
+	background-repeat: no-repeat;
+	/*background-image: url(/images-site/Cryptomonnaie_par_Crypto_Business_Boss_Arts.jpg);
+	background-repeat: no-repeat;*/
+
+}
+
+
+
+}

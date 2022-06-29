@@ -1,0 +1,81 @@
+body
+{
+	background-color: #1d1e1f;
+}
+.profil_complet
+{
+	border: solid 1px #ffa60c;
+	/*box-shadow: 1px 1px #ffa60c;*/
+	width: 25%;
+	margin-right: auto;
+	margin-left: auto;
+	color: #ffa60c;
+
+}
+
+.profil
+{
+	width: 100%;
+	margin: 0%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.ph
+{
+	margin-top: -5px;
+	width: 100%;
+	border: none;
+	background: rgb(131,58,180);
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	border-radius: 0px;
+}
+
+.photo_profil
+{
+	width: 100%;
+}
+
+button
+{
+	height: 30px;
+	width: 80%;
+	margin: auto;
+	background-color: white;
+	border: none;
+	background: rgb(131,58,180);
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	border-radius: 10px;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+}
+
+/*.mod_photo
+{
+  background-color: white;
+  height: auto;
+  width: 100%;
+  font-size: 25px;
+  margin-top: -5px;
+
+}*/
+
+@media (max-width: 760px)
+{
+
+	.profil_complet
+{
+	border: solid 1px #ffa60c;
+	/*box-shadow: 1px 1px #ffa60c;*/
+	width: 50%;
+	color: #ffa60c;
+
+}
+
+}

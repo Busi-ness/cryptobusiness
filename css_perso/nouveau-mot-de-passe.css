@@ -1,0 +1,50 @@
+.formgroup
+	{
+		border: solid #ffa60c 1px;
+		border-radius: 10px;
+		display: block;
+		width: 35%;
+		margin: auto;
+		box-shadow: 2px 2px 2px #000000;
+	}
+
+	form
+	{
+		width: 96%;
+		/*border: solid blue 1px;*/
+		margin: auto;
+	}
+
+.haut
+{
+	margin: 5px;
+}
+
+
+
+.password
+{
+	display: block;
+		margin: auto;
+		width: 98%;
+		height: 27px;
+		border-radius: 5px;
+		border: solid 1px #ffa60c;
+		color: #ffa60c;
+		background-color: #322f2f;
+}
+
+@media (max-width: 760px)
+{
+
+	.formgroup
+	{
+	
+		display: block;
+		width: 90%;
+		margin: auto;
+	}
+	
+
+}
+
