@@ -1,20 +1,30 @@
+.tout-temoignages
+{
+	/*border: solid blue 2px;*/
+	width: auto;
+	align-items: center;
+	display: block;
+}
+
 .temoignage
 {
-	border: solid #ffa60c 1px;
+	border: solid #ffa60c 2px;
 }
 
 .temoignage
 {
 	display: block;
 	text-align: center;
-	width: 32%;
-	margin: 7px;
+	width: 31%;
+	margin: 1%;
 	float: left;
+	align-items: center;
 }
 
 .temoignages
 {
 	display: block;
+	align-items: center;
 	width: 100%;
 	margin: auto;
 	/*border: solid blue 1px;*/
@@ -29,6 +39,7 @@
 
 .image-entete
 {
+	margin-top: 5px;
 	width: 100px;
 	height: 100px;
 	border: solid 2px #ffa60c;

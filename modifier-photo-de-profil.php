@@ -71,7 +71,7 @@ $id = $userinfo['id'];
 
 									));
 
-									header('Location: http://localhost/crypto/profil.php?id='.$_SESSION['id']);
+									header('Location: http://crypto.boss-arts.com/profil.php?id='.$_SESSION['id']);
 								}else
 								{
 									$error = "Erreur durant l'importation de votre profil";

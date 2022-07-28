@@ -45,9 +45,9 @@
 
     //Transformer les input en valeurs sécurisées
 
-            $input_a_mdp = sha1($_POST['input_a_mdp']);
-            $password1 = sha1($_POST['password1']);
-            $password2 = sha1($_POST['password2']);
+            $input_a_mdp = preg_replace("/\s+/", "", sha1($_POST['input_a_mdp']));
+            $password1 = preg_replace("/\s+/", "", sha1($_POST['password1']));
+            $password2 = preg_replace("/\s+/", "", sha1($_POST['password2']));
 
             if ($input_a_mdp == $_SESSION['password']) 
             {
@@ -154,7 +154,7 @@
           <?php
           echo $note;
           ?>
-          <a href="http://crypto.boss-arts.com/profile.php?id=<?php echo $_SESSION['id'];?>">Retour</a><br/>
+          <a href="http://crypto.boss-arts.com/profil.php?id=<?php echo $_SESSION['id'];?>">Retour</a><br/>
           <?php
         }
         ?>

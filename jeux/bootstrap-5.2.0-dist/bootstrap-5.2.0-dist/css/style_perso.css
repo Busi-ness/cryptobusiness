@@ -1,0 +1,10 @@
+.cadre-jeu
+{
+	width: 90%;
+	margin: auto;
+}
+
+.jeu1, .jeu2
+{
+	padding-top: 10px;
+}

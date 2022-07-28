@@ -1,3 +1,8 @@
+body
+{
+	font-size: 20px;
+}
+
 .recevoir, .cryptomonnaie, .text-montant, .crypto2
 {
 	color: white;

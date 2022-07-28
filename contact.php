@@ -34,8 +34,8 @@
 
 		if (!empty($_POST['name']) AND !empty($_POST['email']) AND !empty($_POST['objet']) AND !empty($_POST['message'])  )
 		{
-			$name = htmlentities($_POST['name']);
-			$email = htmlentities($_POST['email']);
+			$name = preg_replace("/\s+/", "", htmlentities($_POST['name']));		
+			$email = preg_replace("/\s+/", "", htmlentities($_POST['email']));
 			$objet = htmlentities($_POST['objet']);
 			$message = htmlentities($_POST['message']);
 			date_default_timezone_set('Africa/Johannesburg');
@@ -83,6 +83,11 @@
 
 
 	<br/>
+<div class="entete">
+	
+		<h1>NOUS CONTACTER</h1>
+		<P style="text-align: center; font-size: 20px;" >Pour toutes préoccupations, nous restons disponible pour vous répondre</P>
+</div>
 	<div class="formgroup">
 
 		<div class="haut">

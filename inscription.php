@@ -15,6 +15,8 @@
 
     include('bdd_config.php');
 
+    include('fonctions/fonctions.php');
+
     //inclure le type de menu
     include('menu-home.php');
 
@@ -31,11 +33,11 @@
   //Transformer les input en valeurs sécurisées
 
 
-    $name = htmlentities($_POST['name']);
-    $first_name = htmlentities($_POST['first_name']);
-    $email = htmlentities($_POST['email']);
+    $name = preg_replace("/\s+/", "", htmlentities($_POST['name']));
+    $first_name = preg_replace("/\s+/", "",  htmlentities($_POST['first_name']));
+    $email = preg_replace("/\s+/", "", htmlentities($_POST['email']));
     $pays = htmlentities($_POST['pays']);
-    $password = sha1($_POST['password']);
+    $password = preg_replace("/\s+/", "", sha1($_POST['password']));
     date_default_timezone_set('Africa/Johannesburg');
 
 
@@ -120,7 +122,7 @@
 
               mail($email, "Confirmation de compte", $message, $header);
 
-              $note = "Un e-mail vous a été envoyé à l'adresse email que vous avez fourni.
+              $note = "Un e-mail vous a été l'adresse email que vous avez fourni.
               Vous devez cliquer sur le lien d'activation avant de pouvoir vous connecter à votre compte";
 
 

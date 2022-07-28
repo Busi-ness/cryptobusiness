@@ -67,6 +67,10 @@
 								<span class="nb">NB: Le montant doit être supérieur ou égal à 5000 FCFA</span><br><br>
 								<input type="number" name="montant-fcfa" id="montant" value="<?php if(isset($_POST['montant-fcfa'])) { echo $_POST['montant-fcfa'];} ?>"><span class="fcfa"> FCFA</span> <br><br>
 
+								<label for=""><span>En cliquant sur continuer vous confirmez que vous avez bien choisi la crypotomonnaie voulue et l'adresse de réception est correcte</span></label><span style="color: red;">*</span> <br><br>
+
+
+
 
 
 

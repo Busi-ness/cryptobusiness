@@ -111,16 +111,7 @@ if (isset($_POST['modifier']) AND !empty($_POST['modifier']))
 
 
 
-<div class="bas">
-  <div class="balises-foot-code">
-    <?php include('balises/foot-code.php');?>
-  </div>
 
-  <div class="footer">
-    <?php include('footer.php');?> 
-  </div>
-</div>
-</body>
 
 <script>
 
@@ -166,6 +157,17 @@ if (isset($_POST['modifier']) AND !empty($_POST['modifier']))
 
 
 </script>
+
+<div class="bas">
+  <div class="balises-foot-code">
+    <?php include('balises/foot-code.php');?>
+  </div>
+
+  <div class="footer">
+    <?php include('footer.php');?> 
+  </div>
+</div>
+</body>
 </html>
 <!-- 
 <input type="number" value="">

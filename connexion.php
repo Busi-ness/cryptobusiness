@@ -34,8 +34,9 @@
 
     //Transformer les input en valeurs sécurisées
 
-    $email = htmlentities($_POST['email']);
-    $password = sha1($_POST['password']);
+    $email = preg_replace("/\s+/", "", htmlentities($_POST['email']));
+    $password = preg_replace("/\s+/", "", sha1($_POST['password']));
+
 
     include('bdd_config.php');
 

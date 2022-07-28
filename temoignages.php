@@ -24,14 +24,14 @@
 
 <div class="tout-temoignages">
 		<span><h1 style="text-align: center;">TEMOIGNGAGES CRYPTO BUSINESS</h1></span>
-		<span><p style="text-align: center;">Ce que nos clients disent par rapport à nos services</p></span>
+		<span><h3 style="text-align: center; color: white!important;" class="nos-clients">Ce que nos clients disent par rapport à nos services</h3></span>
 
 
 <div class="temoignages">
 
 	<?php
 
-//Voir le id de session existe et afficher l'url en fonction de ça
+//Voir le id de session existe et afficher l'url pour poster un témoignage en fonction de ça
 
 if (isset($_SESSION['id']) AND !empty($_SESSION['id'])) 
 {
@@ -57,10 +57,13 @@ if (isset($_SESSION['id']) AND !empty($_SESSION['id']))
 
 		
 			
-
+		<!-- Code html pour afficher tout les témoinages de la base de données qui ont été approuvés -->
+			
 			<div class="temoignage1 temoignage">
 				<img src="users/avatars/<?php echo $avatar_temoin;?>" alt="Photo de <?php echo $name_temoin;?> <?php echo $firts_name_temoin;?> témoignage Crypto Business" class="image-entete"> <hr>
-				<h2><?php echo $name_temoin;?> <?php echo $first_name_temoin;?></h2> <br/>
+				
+				<h2><?php echo $name_temoin;?> <?php echo $first_name_temoin;?></h2>
+				
 				<p><?php echo $temoignage;?></p> <br/>
 				<div class="pays">Depuis: <?php echo $pays_temoin;?> | <?php echo $date_post_temoin;?></div>				
 			</div>

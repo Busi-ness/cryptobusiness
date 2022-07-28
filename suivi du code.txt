@@ -1,0 +1,5 @@
+28-07-2022
+
+Modification des fichiers pour supprimer les espaces vides de toutes les entrées destinées à rentrer dans la base de données
+
+inscription.php

@@ -25,6 +25,19 @@
 
 		<br/><br/>
 
+
+<div class="a-propos" style="text-align: center; font-size: 20px;">
+	<h1>LA CRYPTOMONNAIE NOTRE AFFAIRE</h1>
+
+	<p>
+		Aujourd'hui, beaucoup de personnes nont toujours pas la facilité de payer des cryptomonnaies. Le processus est parfois long. Nous avons donc mis en place ce site pour faciliter lachat et la vente des cyptomonnaies. Cependant, si vous désirez en savoir plus sur l'utilisation de la plateforme veillez cliquer sur le lien en dessous pour télécharger le GUIDE
+	</p>
+
+	<h2><a href="" style="color: #ffa60c;">TELECHARGER LE GUIDE ICI</a></h2>
+
+
+</div>
+
 <div class="bas">
 
 		<?php include('balises/foot-code.php');?>
